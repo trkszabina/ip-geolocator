@@ -1,6 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <distributionManagement>
+        <site>
+            <id>shrek</id>
+            <url>scp://trkszabina@shrek.unideb.hu:2222/home/trkszabina/public_html/${project.artifactId}</url>
+        </site>
+    </distributionManagement>
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.unideb.inf</groupId>
     <artifactId>ip-geolocator</artifactId>
